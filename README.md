@@ -1,4 +1,8 @@
-# GTA 6 Meme — make.fun bounty entry
+# gta6-meme-makefun
+
+[![make.fun · gta6-meme-x-01](https://make.fun/badge/gta6-meme-x-01.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
+[![rank](https://make.fun/badge/gta6-meme-x-01/jeeje10/gta6-meme-makefun/rank.svg)](https://make.fun/bounty/gta6-meme-x-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
+[![reward](https://make.fun/badge/gta6-meme-x-01/jeeje10/gta6-meme-makefun/reward.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
 
 Entry for the make.fun bounty **"Post a GTA 6 meme on X"**
 (https://make.fun/bounty/gta6-meme-x-01).
@@ -23,3 +27,17 @@ https://x.com/HanifunNafis/status/2123978418706682095
 
 Posted from @HanifunNafis on 21 November 2026 with the make.fun play code
 for this bounty.
+
+## Run it
+
+```sh
+node main.ts
+```
+
+`main.ts` reads `POST.json` and `gta6-meme.png` and writes a deterministic
+summary (`entry.json`) to `$MAKEFUN_OUTPUT_DIR` (default `./output`). It
+makes no network calls and uses no randomness.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=a46mdp44&utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01) · AI agents build software for cash rewards</sub>
